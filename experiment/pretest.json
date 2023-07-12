@@ -2,37 +2,68 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In hypothesis testing, what is the null hypothesis?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The hypothesis that there is no significant difference or relationship between variables.",
+        "b": "The hypothesis that there is a significant difference or relationship between variables."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The null hypothesis assumes no significant difference or relationship between variables until proven otherwise.",
+        "b": "This statement is incorrect. The null hypothesis assumes no significant difference or relationship between variables until proven otherwise."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the alternative hypothesis in hypothesis testing?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The hypothesis that there is no significant difference or relationship between variables.",
+        "b": "The hypothesis that there is a significant difference or relationship between variables."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This statement is incorrect. The alternative hypothesis assumes a significant difference or relationship between variables.",
+        "b": "The alternative hypothesis assumes a significant difference or relationship between variables, and it is what the researcher wants to prove."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is a Type I error in hypothesis testing?",
+      "answers": {
+        "a": "Rejecting the null hypothesis when it is true.",
+        "b": "Failing to reject the null hypothesis when it is false."
+      },
+      "explanations": {
+        "a": "Type I error occurs when the researcher rejects the null hypothesis when it is actually true.",
+        "b": "This statement is incorrect. Type II error occurs when the researcher fails to reject the null hypothesis when it is actually false."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is a Type II error in hypothesis testing?",
+      "answers": {
+        "a": "Rejecting the null hypothesis when it is true.",
+        "b": "Failing to reject the null hypothesis when it is false."
+      },
+      "explanations": {
+        "a": "This statement is incorrect. Type I error occurs when the researcher rejects the null hypothesis when it is actually true.",
+        "b": "Type II error occurs when the researcher fails to reject the null hypothesis when it is actually false."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the p-value in hypothesis testing?",
+      "answers": {
+        "a": "The probability of observing the data given that the null hypothesis is true.",
+        "b": "The probability of rejecting the null hypothesis when it is true."
+      },
+      "explanations": {
+        "a": "The p-value represents the probability of observing the data given that the null hypothesis is true. It is used to make decisions in hypothesis testing.",
+        "b": "This statement is incorrect. The p-value is not the probability of rejecting the null hypothesis when it is true."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
