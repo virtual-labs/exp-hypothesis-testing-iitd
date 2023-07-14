@@ -2,38 +2,69 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is a null hypothesis in hypothesis testing?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The hypothesis that states there is no significant difference or relationship between variables.",
+        "b": "The hypothesis that states there is a significant difference or relationship between variables."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The null hypothesis in hypothesis testing is the hypothesis that states there is no significant difference or relationship between variables.",
+        "b": "This statement is incorrect. The null hypothesis, not the alternative hypothesis, states that there is no significant difference or relationship between variables."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "medium"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is a Type I error in hypothesis testing?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Rejecting the null hypothesis when it is true.",
+        "b": "Failing to reject the null hypothesis when it is true."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "A Type I error in hypothesis testing occurs when the null hypothesis is wrongly rejected, meaning that we conclude there is a significant difference or relationship when there isn't one.",
+        "b": "This statement is incorrect. Failing to reject the null hypothesis when it is true is a Type II error, not a Type I error."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a Type II error in hypothesis testing?",
+      "answers": {
+        "a": "Rejecting the null hypothesis when it is true.",
+        "b": "Failing to reject the null hypothesis when it is false."
+      },
+      "explanations": {
+        "a": "This statement is incorrect. Rejecting the null hypothesis when it is true is a Type I error, not a Type II error.",
+        "b": "A Type II error in hypothesis testing occurs when we fail to reject the null hypothesis when it is false, meaning that we don't detect a significant difference or relationship when there actually is one."
+      },
+      "correctAnswer": "b",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the p-value in hypothesis testing?",
+      "answers": {
+        "a": "The probability of rejecting the null hypothesis when it is true.",
+        "b": "The probability of observing the test statistic or a more extreme value, assuming the null hypothesis is true."
+      },
+      "explanations": {
+        "a": "This statement is incorrect. The p-value is not the probability of rejecting the null hypothesis when it is true.",
+        "b": "The p-value is the probability of observing the test statistic or a more extreme value, assuming the null hypothesis is true. It is used to assess the strength of evidence against the null hypothesis."
+      },
+      "correctAnswer": "b",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the critical value in hypothesis testing?",
+      "answers": {
+        "a": "The value that separates the rejection and non-rejection regions in a hypothesis test.",
+        "b": "The value that represents the sample statistic obtained from the data."
+      },
+      "explanations": {
+        "a": "The critical value in hypothesis testing is the value that separates the rejection and non-rejection regions in a hypothesis test, based on the chosen significance level.",
+        "b": "This statement is incorrect. The critical value is not the sample statistic obtained from the data but is determined based on the chosen significance level and the distribution of the test statistic."
+      },
+      "correctAnswer": "a",
+      "difficulty": "medium"
     }
   ]
 }
