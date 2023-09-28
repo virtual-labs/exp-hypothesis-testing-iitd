@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.11/katex.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.11/katex.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/contrib/auto-render.min.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hypothesis Testing | statsVL</title>
+    <link rel="stylesheet" href="../descriptive.css" />
+    <link rel="stylesheet" href="../../../styles/animation.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="../../../Scripts/stats.js"></script>
+
+    <script src="https://kit.fontawesome.com/fa99256fbe.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+    <script src="../script.js"></script>
+
+    <script src="../../Scripts/chart.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/p5.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/addons/p5.dom.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../../../jstat-1.x/jstat-1.x/dist/jstat.min.js"></script>
+    <script src="../../../jstat-1.x/jstat-1.x/dist/jstat.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <style>
+        .sample-input {
+            width: 100%;
+            min-height: 8vh;
+            margin-top: 1vh;
+            font-size: 1.8rem;
+            padding-left: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="page">
+        <div class="main-grid-item">
+            <header>
+                <div class="animation-underline">
+                    <div class="inline-flex-container">
+                        <h4>
+                            <a class="descrip button mean" href="../mean/mean.html">
+                                Hypothesis Testing
+                            </a>
+                        </h4>
+                    </div>
+                </div>
+
+                <style>
+                    a {
+                        cursor: pointer;
+                    }
+                    
+                    .animation-underline a::before {
+                        background-color: var(--main-primary);
+                    }
+                </style>
+                <a id="home-button" href="/index.html">
+                    <i class="fa-solid fa-house"></i> Statistics Virtual Lab
+                </a>
+            </header>
+        </div>
+
+        <div class="content">
+            <div class="heading">
+                <h2>Difference of Mean - Hypothesis Testing</h2>
+            </div>
+
+            <div class="main-content">
+                <div class="left">
+                    <div class="data-input-area" id="data-input-area">
+
+                        <!-- Single Mean Hypothesis Testing -->
+                        <div id="single-mean-hypothesis">
+                            <label for="operator1">H<sub>0</sub> : μ<sub>1</sub> - μ<sub>2</sub> </label>
+                            <select id="operator1" onchange="setInverseOperator()">
+                                <option value="equal">=</option>
+                                <option value="greater">>=</option>
+                                <option value="less"><=</option>
+                            </select>
+                            <input type="number" id="value" name="value" placeholder="Enter a value">
+                            <br>
+
+                            <label for="significanceLevel">Level of Significance (&#945): </label>
+                            <input type="number" id="significanceLevel" name="significanceLevel" placeholder="Percentage(%)">
+                            <br>
+
+                            <!-- <button onclick="showDiv(1)">Sample</button> -->
+                            <button onclick="showDiv(2)">Sample Mean</button>
+
+                            <div id="div1" class="hidden">
+                                <label for="numSamples">Enter the number of samples (n): </label>
+                                <input type="number" id="numSamples" name="numSamples" placeholder="Enter the number of samples">
+
+                                <button id="createInput" onclick="createSampleInputs();">Enter Sample Data</button>
+
+                                <div id="sampleInputContainer"></div>
+
+                                <div id="sampleSelectionContainer"></div>
+                                <button id="find2" onclick="hypothesisTest2();">
+                                    Solve
+                                </button>
+                            </div>
+
+                            <div id="div2" class="hidden">
+                                <!-- First set of input fields for t-test -->
+                                <label for="n1"> n1 : </label>
+                                <input type="number" id="n1" name="n1" placeholder="">
+
+                                <label for="mean1"> x&#772;1 : </label>
+                                <input type="number" id="mean1" name="samplemean1" placeholder="">
+
+                                <label for="variance1"> &sigma;1 : </label>
+                                <input type="number" id="variance1" name="variance1" placeholder="">
+                                <br>
+                                <!-- Second set of input fields for t-test -->
+                                <label for="n2"> n2 : </label>
+                                <input type="number" id="n2" name="n2" placeholder="">
+
+                                <label for="mean2"> x&#772;2 : </label>
+                                <input type="number" id="mean2" name="samplemean2" placeholder="">
+
+                                <label for="variance2"> &sigma;2 : </label>
+                                <input type="number" id="variance2" name="variance2" placeholder="">
+
+                                <button id="find" onclick="hypothesisTestDifference();">
+                                    Solve
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Difference of Means Hypothesis Testing -->
+                        <div id="difference-of-means-hypothesis" class="hidden">
+                            <label for="operator1">H<sub>0</sub> : μ<sub>1</sub> - μ<sub>2</sub> = 0</label>
+                            <label for="operator2">H<sub>1</sub> : μ<sub>1</sub> - μ<sub>2</sub> != 0</label>
+                            <select id="operator1" onchange="setInverseOperator()">
+                                <option value="equal">=</option>
+                            </select>
+                            <select id="operator2" disabled>
+                                <option value="equal">!=</option>
+                            </select>
+                            <br>
+
+                            <label for="significanceLevel">Level of Significance (&#945): </label>
+                            <input type="number" id="significanceLevel" name="significanceLevel" placeholder="Percentage(%)">
+                            <br>
+
+                            <button onclick="showDiv(3)">Sample 1</button>
+                            <button onclick="showDiv(4)">Sample 2</button>
+
+                            <div id="div3" class="hidden">
+                                <label for="n1">Enter the number of samples (n1): </label>
+                                <input type="number" id="n1" name="n1" placeholder="Enter the number of samples for Sample 1">
+                                <!-- Add input fields for Sample 1 data here -->
+
+                            </div>
+
+                            <div id="div4" class="hidden">
+                                <label for="n2">Enter the number of samples (n2): </label>
+                                <input type="number" id="n2" name="n2" placeholder="Enter the number of samples for Sample 2">
+                                <!-- Add input fields for Sample 2 data here -->
+
+                            </div>
+
+                            <button id="findDifference" onclick="hypothesisTestDifference();">
+                                Solve
+                            </button>
+                        </div>
+
+                        <script>
+                            function showDiv(option) {
+                                // Hide all div elements
+                                var divs = document.querySelectorAll('div[id^="div"]');
+                                for (var i = 0; i < divs.length; i++) {
+                                    divs[i].style.display = 'none';
+                                }
+
+                                // Show the selected div
+                                var selectedDiv = document.getElementById('div' + option);
+                                selectedDiv.style.display = 'block';
+                            }
+                        </script>
+                    </div>
+
+                    <div id="data-result-area">
+
+                    </div>
+                </div>
+                <div class="right">
+                    <div id="graph-result-area">
+                        <canvas id="normal-distribution-canvas"></canvas>
+                        <canvas id="difference-of-means-canvas"></canvas>
+
+                        <div id="plotDiv"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-grid-item">
+            <footer>
+                <p>
+                    <a href="https://www.vlab.co.in/" target="_blank">Virutal Lab Project</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1185,20 +1185,23 @@ function createMeanWithIntervalPlot(data, intervalStart, intervalEnd) {
 }
 
 
-// JavaScript code
-function hypothesisTest() {
+
+
+
+function hypothesisTestDifference() {
     // Get the input values
-    var n = parseInt(document.getElementById('n').value);
     var mean = parseFloat(document.getElementById('value').value);
-    var sampleMean = parseFloat(document.getElementById('samplemean').value);
-    var variance = parseFloat(document.getElementById('variance').value);
+
+    var n1 = parseInt(document.getElementById('n1').value);
+    var n2 = parseInt(document.getElementById('n2').value);
+    var mean1 = parseFloat(document.getElementById('mean1').value);
+    var mean2 = parseFloat(document.getElementById('mean2').value);
+    var variance1 = parseFloat(document.getElementById('variance1').value);
+    var variance2 = parseFloat(document.getElementById('variance2').value);
     var significanceLevel = parseFloat(document.getElementById('significanceLevel').value) / 100;
+    var sampleMean = mean1 - mean2;
 
-    // Calculate the standard deviation
-    var standardDeviation = Math.sqrt(variance);
-
-    // Calculate the standard error
-    var standardError = standardDeviation / Math.sqrt(n);
+    var standardError = Math.sqrt((variance1 / n1) + (variance2 / n2));
 
     // Determine the operator selected for the null hypothesis
     var operatorSelect = document.getElementById('operator1');
@@ -1208,27 +1211,52 @@ function hypothesisTest() {
     var criticalValue1;
     var criticalValue2;
     if (operatorValue === "equal") {
-        criticalValue1 = jStat.normal.inv(significanceLevel / 2, mean, standardDeviation);
-        criticalValue2 = jStat.normal.inv(1 - significanceLevel / 2, mean, standardDeviation);
+        criticalValue1 = jStat.normal.inv(significanceLevel / 2, 0, 1);
+        criticalValue2 = jStat.normal.inv(1 - significanceLevel / 2, 0, 1);
     } else if (operatorValue === "greater") {
-        criticalValue1 = jStat.normal.inv(significanceLevel, mean, standardDeviation);
+        criticalValue1 = jStat.normal.inv(significanceLevel, 0, 1);
         criticalValue2 = Infinity;
     } else {
         criticalValue1 = -Infinity;
-        criticalValue2 = jStat.normal.inv(1 - significanceLevel, mean, standardDeviation);
+        criticalValue2 = jStat.normal.inv(1 - significanceLevel, 0, 1);
     }
 
     // Calculate the test statistic (z-score) or (t-score)
-    var testStatistic = sampleMean;
+    var testStatistic = (sampleMean - mean) / standardError;
 
     // Perform the hypothesis test and update the result
     var result;
-    console.log(testStatistic, criticalValue1, criticalValue2);
+    // Perform the hypothesis test and update the result
+    var result;
+    var resultDetails = '';
     if (testStatistic < criticalValue1 || testStatistic > criticalValue2) {
         result = "Reject the null hypothesis";
+        resultDetails = "The test statistic is outside the acceptance region.";
     } else {
         result = "Fail to reject the null hypothesis";
+        resultDetails = "The test statistic is within the acceptance region.";
     }
+
+    // Define the hypothesis test formulas
+    var formulas = {
+        // "z-score": "\\(z = \\frac{{\\text{{sampleMean}} - \\text{{mean}}}}{{\\frac{{\\text{{standardDeviation}}}}{{\\sqrt{n}}}}\\)",
+        "critical-values": "Critical Values: " + criticalValue1.toFixed(2) + " and " + criticalValue2.toFixed(2),
+        "significance-level": "Significance Level: " + (significanceLevel * 100) + "%"
+    };
+    // Define the formula in LaTeX format
+
+
+    // Display the test result, details, and formulas in the data-result-area
+    var resultArea = document.getElementById('data-result-area');
+    resultArea.innerHTML = "<strong>Test Result:</strong> " + result + "<br>" +
+        "<strong>Test Statistic:</strong> " + testStatistic.toFixed(2) + "<br>" +
+        "<strong>Formulas:</strong><br>" +
+        "<ul>" +
+        // "<li>" + formulas["z-score"] + "</li>" +
+        "<li>" + formulas["critical-values"] + "</li>" +
+        "<li>" + formulas["significance-level"] + "</li>" +
+        "</ul>" +
+        "<strong>Result Details:</strong> " + resultDetails;
 
     if (criticalValue1 == -Infinity)
         criticalValue1 = mean - 4 * standardDeviation;
@@ -1245,8 +1273,8 @@ function hypothesisTest() {
     canvas.height = canvasHeight;
 
     // Define the mean and standard deviation of the normal distribution
-    var distributionMean = mean;
-    var distributionStandardDeviation = standardDeviation;
+    var distributionMean = 0;
+    var distributionStandardDeviation = 1;
 
     // Define the x-axis range
     var xMin = distributionMean - 4 * distributionStandardDeviation;
@@ -1279,7 +1307,8 @@ function hypothesisTest() {
     var validRegionStartPixel = (criticalValue1 - xMin) * canvasWidth / (xMax - xMin);
     var validRegionEndPixel = (criticalValue2 - xMin) * canvasWidth / (xMax - xMin);
     ctx.fillStyle = 'rgba(0, 128, 0, 0.2)';
-    ctx.fillRect(validRegionStartPixel, 0, validRegionEndPixel - validRegionStartPixel, canvasHeight);
+    ctx.fillRect(validRegionStartPixel, 0, validRegionEndPixel - validRegionStartPixel, canvasHeight / 2);
+
 
     // Draw a vertical line to represent the sample mean
     var sampleMeanPixel = (testStatistic - xMin) * canvasWidth / (xMax - xMin);
@@ -1290,17 +1319,164 @@ function hypothesisTest() {
     ctx.stroke();
     ctx.font = '12px Arial';
     ctx.fillStyle = 'red';
-    ctx.fillText('Sample Mean: ' + testStatistic.toFixed(2), sampleMeanPixel + 10, canvasHeight / 3);
+    ctx.fillText('z-score: ' + testStatistic.toFixed(2), sampleMeanPixel + 10, canvasHeight / 2 - 12);
 
     // Mark the value of the start point
-    ctx.fillText('Start: ' + criticalValue1.toFixed(2), validRegionStartPixel - 50, 20);
+    ctx.fillText('Acceptance region start:' + criticalValue1.toFixed(2), validRegionStartPixel - 50, canvasHeight / 2 + 12);
 
     // Mark the value of the end point
-    ctx.fillText('End: ' + criticalValue2.toFixed(2), validRegionEndPixel + 10, 20);
+    ctx.fillText('Acceptance region end:' + criticalValue2.toFixed(2), validRegionEndPixel - 50, canvasHeight / 2 + 12);
 
     // Display the test result
+    // var resultArea = document.getElementById('data-result-area');
+    // resultArea.innerHTML = "<strong>Test Result: </strong>" + result;
+
+
+}
+
+
+
+function hypothesisTest() {
+    // Get the input values
+    var n = parseInt(document.getElementById('n').value);
+    var mean = parseFloat(document.getElementById('value').value);
+    var sampleMean = parseFloat(document.getElementById('samplemean').value);
+    var variance = parseFloat(document.getElementById('variance').value);
+    var significanceLevel = parseFloat(document.getElementById('significanceLevel').value) / 100;
+
+    // Calculate the standard deviation
+    var standardDeviation = Math.sqrt(variance);
+
+    // Calculate the standard error
+    var standardError = standardDeviation / Math.sqrt(n);
+
+    // Determine the operator selected for the null hypothesis
+    var operatorSelect = document.getElementById('operator1');
+    var operatorValue = operatorSelect.options[operatorSelect.selectedIndex].value;
+
+    // Calculate the critical value (z-score) or (t-score) based on the significance level and operator selected
+    var criticalValue1;
+    var criticalValue2;
+    if (operatorValue === "equal") {
+        criticalValue1 = jStat.normal.inv(significanceLevel / 2, 0, 1);
+        criticalValue2 = jStat.normal.inv(1 - significanceLevel / 2, 0, 1);
+    } else if (operatorValue === "greater") {
+        criticalValue1 = jStat.normal.inv(significanceLevel, 0, 1);
+        criticalValue2 = Infinity;
+    } else {
+        criticalValue1 = -Infinity;
+        criticalValue2 = jStat.normal.inv(1 - significanceLevel, 0, 1);
+    }
+
+    // Calculate the test statistic (z-score) or (t-score)
+    var testStatistic = (sampleMean - mean) / standardError;
+
+    // Perform the hypothesis test and update the result
+    var result;
+    // Perform the hypothesis test and update the result
+    var result;
+    var resultDetails = '';
+    if (testStatistic < criticalValue1 || testStatistic > criticalValue2) {
+        result = "Reject the null hypothesis";
+        resultDetails = "The test statistic is outside the acceptance region.";
+    } else {
+        result = "Fail to reject the null hypothesis";
+        resultDetails = "The test statistic is within the acceptance region.";
+    }
+
+    // Define the hypothesis test formulas
+    var formulas = {
+        // "z-score": "\\(z = \\frac{{\\text{{sampleMean}} - \\text{{mean}}}}{{\\frac{{\\text{{standardDeviation}}}}{{\\sqrt{n}}}}\\)",
+        "critical-values": "Critical Values: " + criticalValue1.toFixed(2) + " and " + criticalValue2.toFixed(2),
+        "significance-level": "Significance Level: " + (significanceLevel * 100) + "%"
+    };
+    // Define the formula in LaTeX format
+
+
+    // Display the test result, details, and formulas in the data-result-area
     var resultArea = document.getElementById('data-result-area');
-    resultArea.innerHTML = "<strong>Test Result: </strong>" + result;
+    resultArea.innerHTML = "<strong>Test Result:</strong> " + result + "<br>" +
+        "<strong>Test Statistic:</strong> " + testStatistic.toFixed(2) + "<br>" +
+        "<strong>Formulas:</strong><br>" +
+        "<ul>" +
+        // "<li>" + formulas["z-score"] + "</li>" +
+        "<li>" + formulas["critical-values"] + "</li>" +
+        "<li>" + formulas["significance-level"] + "</li>" +
+        "</ul>" +
+        "<strong>Result Details:</strong> " + resultDetails;
+
+    if (criticalValue1 == -Infinity)
+        criticalValue1 = mean - 4 * standardDeviation;
+    if (criticalValue2 == Infinity)
+        criticalValue2 = mean + 4 * standardDeviation;
+
+    var canvas = document.getElementById('normal-distribution-canvas');
+    var ctx = canvas.getContext('2d');
+
+    // Define the canvas dimensions
+    var canvasWidth = 600; // Increase the canvas width as desired
+    var canvasHeight = 400; // Increase the canvas height as desired
+    canvas.width = canvasWidth;
+    canvas.height = canvasHeight;
+
+    // Define the mean and standard deviation of the normal distribution
+    var distributionMean = 0;
+    var distributionStandardDeviation = 1;
+
+    // Define the x-axis range
+    var xMin = distributionMean - 4 * distributionStandardDeviation;
+    var xMax = distributionMean + 4 * distributionStandardDeviation;
+
+    // Calculate the step size for drawing the curve
+    var stepSize = (xMax - xMin) / canvasWidth;
+
+    // Clear the canvas
+    ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+
+    // Draw the x-axis
+    var xAxisY = canvasHeight / 2;
+    ctx.beginPath();
+    ctx.moveTo(0, xAxisY);
+    ctx.lineTo(canvasWidth, xAxisY);
+    ctx.stroke();
+
+    // Draw the normal distribution curve
+    ctx.beginPath();
+    for (var x = xMin; x <= xMax; x += stepSize) {
+        var y = (1 / (Math.sqrt(2 * Math.PI) * distributionStandardDeviation)) * Math.exp(-((x - distributionMean) ** 2) / (2 * (distributionStandardDeviation ** 2)));
+        var yPixel = canvasHeight / 2 - (y * canvasHeight / 2);
+        var xPixel = (x - xMin) * canvasWidth / (xMax - xMin);
+        ctx.lineTo(xPixel, yPixel);
+    }
+    ctx.stroke();
+
+    // Shade the valid region
+    var validRegionStartPixel = (criticalValue1 - xMin) * canvasWidth / (xMax - xMin);
+    var validRegionEndPixel = (criticalValue2 - xMin) * canvasWidth / (xMax - xMin);
+    ctx.fillStyle = 'rgba(0, 128, 0, 0.2)';
+    ctx.fillRect(validRegionStartPixel, 0, validRegionEndPixel - validRegionStartPixel, canvasHeight / 2);
+
+
+    // Draw a vertical line to represent the sample mean
+    var sampleMeanPixel = (testStatistic - xMin) * canvasWidth / (xMax - xMin);
+    ctx.beginPath();
+    ctx.moveTo(sampleMeanPixel, 0);
+    ctx.lineTo(sampleMeanPixel, canvasHeight);
+    ctx.strokeStyle = 'red';
+    ctx.stroke();
+    ctx.font = '12px Arial';
+    ctx.fillStyle = 'red';
+    ctx.fillText('z-score: ' + testStatistic.toFixed(2), sampleMeanPixel + 10, canvasHeight / 2 - 12);
+
+    // Mark the value of the start point
+    ctx.fillText('Acceptance region start:' + criticalValue1.toFixed(2), validRegionStartPixel - 50, canvasHeight / 2 + 12);
+
+    // Mark the value of the end point
+    ctx.fillText('Acceptance region end:' + criticalValue2.toFixed(2), validRegionEndPixel - 50, canvasHeight / 2 + 12);
+
+    // Display the test result
+    // var resultArea = document.getElementById('data-result-area');
+    // resultArea.innerHTML = "<strong>Test Result: </strong>" + result;
 }
 
 
@@ -1326,18 +1502,18 @@ function hypothesisTest3() {
     var criticalValue1;
     var criticalValue2;
     if (operatorValue === "equal") {
-        criticalValue1 = jStat.normal.inv(significanceLevel / 2, mean, standardDeviation);
-        criticalValue2 = jStat.normal.inv(1 - significanceLevel / 2, mean, standardDeviation);
+        criticalValue1 = jStat.normal.inv(significanceLevel / 2, 0, 1);
+        criticalValue2 = jStat.normal.inv(1 - significanceLevel / 2, 0, 1);
     } else if (operatorValue === "greater") {
-        criticalValue1 = jStat.normal.inv(significanceLevel, mean, standardDeviation);
+        criticalValue1 = jStat.normal.inv(significanceLevel, 0, 1);
         criticalValue2 = Infinity;
     } else {
         criticalValue1 = -Infinity;
-        criticalValue2 = jStat.normal.inv(1 - significanceLevel, mean, standardDeviation);
+        criticalValue2 = jStat.normal.inv(1 - significanceLevel, 0, 1);
     }
 
     // Calculate the test statistic (z-score) or (t-score)
-    var testStatistic = sampleMean;
+    var testStatistic = (sampleMean - mean) / standardError;
 
     // Perform the hypothesis test and update the result
     var result;
@@ -1347,6 +1523,22 @@ function hypothesisTest3() {
     } else {
         result = "Fail to reject the null hypothesis";
     }
+
+
+
+    // Create a string to store the calculations
+    var calculations = "<strong>Calculations:</strong><br>" +
+        "Sample Mean: " + sampleMean.toFixed(2) + "<br>" +
+        "Standard Deviation: " + standardDeviation.toFixed(2) + "<br>" +
+        "Standard Error: " + standardError.toFixed(2) + "<br>" +
+        "Test Statistic: " + testStatistic.toFixed(2) + "<br>" +
+        "Critical Value 1: " + criticalValue1.toFixed(2) + "<br>" +
+        "Critical Value 2: " + criticalValue2.toFixed(2) + "<br>";
+
+    // Display the calculations and test result in the data-result-area
+    var resultArea = document.getElementById('data-result-area');
+    resultArea.innerHTML = calculations +
+        "<strong>Test Result: </strong>" + result;
 
     if (criticalValue1 == -Infinity)
         criticalValue1 = mean - 4 * standardDeviation;
@@ -1363,8 +1555,8 @@ function hypothesisTest3() {
     canvas.height = canvasHeight;
 
     // Define the mean and standard deviation of the normal distribution
-    var distributionMean = mean;
-    var distributionStandardDeviation = standardDeviation;
+    var distributionMean = 0;
+    var distributionStandardDeviation = 1;
 
     // Define the x-axis range
     var xMin = distributionMean - 4 * distributionStandardDeviation;
@@ -1397,7 +1589,7 @@ function hypothesisTest3() {
     var validRegionStartPixel = (criticalValue1 - xMin) * canvasWidth / (xMax - xMin);
     var validRegionEndPixel = (criticalValue2 - xMin) * canvasWidth / (xMax - xMin);
     ctx.fillStyle = 'rgba(0, 128, 0, 0.2)';
-    ctx.fillRect(validRegionStartPixel, 0, validRegionEndPixel - validRegionStartPixel, canvasHeight);
+    ctx.fillRect(validRegionStartPixel, 0, validRegionEndPixel - validRegionStartPixel, canvasHeight / 2);
 
     // Draw a vertical line to represent the sample mean
     var sampleMeanPixel = (testStatistic - xMin) * canvasWidth / (xMax - xMin);
@@ -1408,22 +1600,34 @@ function hypothesisTest3() {
     ctx.stroke();
     ctx.font = '12px Arial';
     ctx.fillStyle = 'red';
-    ctx.fillText('Sample Mean: ' + testStatistic.toFixed(2), sampleMeanPixel + 10, canvasHeight / 3);
+    ctx.fillText('z-score: ' + testStatistic.toFixed(2), sampleMeanPixel + 10, canvasHeight / 2 - 12);
 
     // Mark the value of the start point
-    ctx.fillText('Start: ' + criticalValue1.toFixed(2), validRegionStartPixel - 50, 20);
+    ctx.fillText('Acceptance region start: ' + criticalValue1.toFixed(2), validRegionStartPixel - 50, canvasHeight / 2 + 12);
 
     // Mark the value of the end point
-    ctx.fillText('End: ' + criticalValue2.toFixed(2), validRegionEndPixel + 10, 20);
+    ctx.fillText('Acceptance region end : ' + criticalValue2.toFixed(2), validRegionEndPixel - 50, canvasHeight / 2 + 12);
 
-    // Display the test result
-    var resultArea = document.getElementById('data-result-area');
-    resultArea.innerHTML = "<strong>Test Result: </strong>" + result;
+    // Display the test resultesult-area');
+    // resultArea.innerHTML = "<strong>Test Result: </strong>" + result;
 }
 
 
 
-
+function gammaFunction(x) {
+    if (x === 0) {
+        return Infinity;
+    } else if (x < 0) {
+        return -gammaFunction(-x);
+    } else {
+        var f = 1;
+        while (x > 1) {
+            f *= x;
+            x--;
+        }
+        return f;
+    }
+}
 
 function hypothesisTest2() {
     const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
@@ -1478,7 +1682,7 @@ function hypothesisTest2() {
         criticalValue2 = jStat.studentt.inv(1 - significanceLevel, degreesOfFreedom);
     }
 
-
+    const df = degreesOfFreedom;
     // Perform the hypothesis test and update the result
     var result;
     console.log(testStatistic, criticalValue1, criticalValue2);
@@ -1487,6 +1691,22 @@ function hypothesisTest2() {
     } else {
         result = "Fail to reject the null hypothesis";
     }
+
+
+    // Create a string to store the calculations
+    var calculations = "<strong>Calculations:</strong><br>" +
+        "Sample Mean: " + mean.toFixed(2) + "<br>" +
+        "Standard Deviation: " + standardDeviation.toFixed(2) + "<br>" +
+        "Standard Error: " + standardError.toFixed(2) + "<br>" +
+        "Test Statistic: " + testStatistic.toFixed(2) + "<br>" +
+        "Critical Value 1: " + criticalValue1.toFixed(2) + "<br>" +
+        "Critical Value 2: " + criticalValue2.toFixed(2) + "<br>";
+
+    // Display the calculations and test result in the data-result-area
+    var resultArea = document.getElementById('data-result-area');
+    resultArea.innerHTML = calculations +
+        "<strong>Test Result: </strong>" + result;
+
 
     if (criticalValue1 == -Infinity)
         criticalValue1 = mean - 4 * standardDeviation;
@@ -1526,7 +1746,8 @@ function hypothesisTest2() {
     // Draw the normal distribution curve
     ctx.beginPath();
     for (var x = xMin; x <= xMax; x += stepSize) {
-        var y = (1 / (Math.sqrt(2 * Math.PI) * distributionStandardDeviation)) * Math.exp(-((x) ** 2) / (2 * (distributionStandardDeviation ** 2)));
+        var t = (x - distributionMean) / distributionStandardDeviation;
+        var y = (gammaFunction((df + 1) / 2) / (Math.sqrt(df * Math.PI) * gammaFunction(df / 2))) * Math.pow((1 + (t * t) / df), (-(df + 1) / 2));
         var yPixel = canvasHeight / 2 - (y * canvasHeight / 2);
         var xPixel = (x - xMin) * canvasWidth / (xMax - xMin);
         ctx.lineTo(xPixel, yPixel);
@@ -1537,7 +1758,7 @@ function hypothesisTest2() {
     var validRegionStartPixel = (criticalValue1 - xMin) * canvasWidth / (xMax - xMin);
     var validRegionEndPixel = (criticalValue2 - xMin) * canvasWidth / (xMax - xMin);
     ctx.fillStyle = 'rgba(0, 128, 0, 0.2)';
-    ctx.fillRect(validRegionStartPixel, 0, validRegionEndPixel - validRegionStartPixel, canvasHeight);
+    ctx.fillRect(validRegionStartPixel, 0, validRegionEndPixel - validRegionStartPixel, canvasHeight / 2);
 
     // Draw a vertical line to represent the sample mean
     var sampleMeanPixel = (testStatistic - xMin) * canvasWidth / (xMax - xMin);
@@ -1550,17 +1771,17 @@ function hypothesisTest2() {
     // Mark the value of the vertical line
     ctx.font = '12px Arial';
     ctx.fillStyle = 'red';
-    ctx.fillText('T-statistics: ' + testStatistic.toFixed(2), sampleMeanPixel + 10, canvasHeight / 3);
+    ctx.fillText('t-statisics: ' + testStatistic.toFixed(2), sampleMeanPixel + 10, canvasHeight / 2 - 12);
 
     // Mark the value of the start point
-    ctx.fillText('Start: ' + criticalValue1.toFixed(2), validRegionStartPixel - 50, 20);
+    ctx.fillText('Acceptance region start: ' + criticalValue1.toFixed(2), validRegionStartPixel - 50, canvasHeight / 2 + 12);
 
     // Mark the value of the end point
-    ctx.fillText('End: ' + criticalValue2.toFixed(2), validRegionEndPixel + 10, 20);
+    ctx.fillText('Acceptance region end : ' + criticalValue2.toFixed(2), validRegionEndPixel - 50, canvasHeight / 2 + 12);
 
 
 
     // Display the test result
-    var resultArea = document.getElementById('data-result-area');
-    resultArea.innerHTML = "<strong>Test Result: </strong>" + result;
+    // var resultArea = document.getElementById('data-result-area');
+    // resultArea.innerHTML = "<strong>Test Result: </strong>" + result;
 }
