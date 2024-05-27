@@ -1,20 +1,24 @@
 # Understanding Hypothesis Testing in Statistics
 
-Hypothesis testing is a fundamental concept in statistics, enabling researchers to make inferences about populations based on sample data. The primary objective is to assess the statistical significance of a hypothesis by analyzing sample data and drawing conclusions about the entire population from which the sample was taken. This involves key concepts such as the **null hypothesis (H0)** representing no significant difference, and the **alternative hypothesis (Ha)** asserting a significant difference. Researchers use a **significance level (α)** to set the threshold for decision-making.
+Hypothesis testing is a fundamental concept in statistics that enables researchers to make inferences about populations based on sample data. The primary objective is to assess the statistical significance of a hypothesis by analyzing sample data and drawing conclusions about the entire population from which the sample was taken. This process involves several key concepts and parameters, including the **null hypothesis (H0)**, the **alternative hypothesis (Ha)**, and the **significance level (α)**.
 
-## Key Concepts
+## Key Concepts and Parameters
 
-- **Null Hypothesis (H0):** Represents no significant difference or relationship in population parameters.
-  
-- **Alternative Hypothesis (Ha):** Contradicts the null hypothesis, asserting a significant difference or relationship.
-  
-- **Significance Level (α):** Probability of rejecting the null hypothesis when it is true (common values: 0.05, 0.01).
+- **Null Hypothesis (H0):** This hypothesis represents a statement of no effect, no difference, or no relationship in the population. It serves as the default or baseline hypothesis that researchers aim to test against. For example, H0 might state that there is no difference in mean blood pressure between two different treatment groups.
 
-- **P-value:** Probability of obtaining sample data as extreme as observed, assuming the null hypothesis is true. A smaller p-value indicates stronger evidence against the null hypothesis.
+- **Alternative Hypothesis (Ha):** This hypothesis contradicts the null hypothesis and represents a statement of an effect, a difference, or a relationship in the population. It is what researchers seek to provide evidence for. For example, Ha might state that there is a difference in mean blood pressure between two different treatment groups.
 
-- **Type I and Type II Errors:** Type I error occurs when the null hypothesis is wrongly rejected; Type II error occurs when it is not rejected when it should be.
+- **Significance Level (α):** This is the threshold probability for rejecting the null hypothesis. It represents the probability of committing a Type I error, which occurs when the null hypothesis is true but is incorrectly rejected. Common values for α are 0.05, 0.01, and 0.10.
 
-- **Test Statistic:** A numerical value calculated from sample data, used to determine the p-value and make decisions about the null hypothesis.
+- **P-value:** The p-value is the probability of obtaining sample data at least as extreme as the observed data, assuming that the null hypothesis is true. A smaller p-value indicates stronger evidence against the null hypothesis. If the p-value is less than the significance level (α), the null hypothesis is rejected.
+
+- **Type I and Type II Errors:** 
+  - **Type I Error (α):** This error occurs when the null hypothesis is wrongly rejected when it is actually true.
+  - **Type II Error (β):** This error occurs when the null hypothesis is not rejected when it should be, meaning that the alternative hypothesis is true but we fail to detect it.
+
+- **Test Statistic:** A test statistic is a numerical value calculated from sample data, which is used to determine the p-value and make decisions about the null hypothesis. Different tests have different test statistics, such as the Z-score, t-statistic, or chi-squared statistic.
+
+
 
 ## Mathematical Equations
 
