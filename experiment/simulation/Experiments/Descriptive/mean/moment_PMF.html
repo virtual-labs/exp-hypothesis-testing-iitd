@@ -142,11 +142,14 @@
                         <!-- <button onclick="showDiv(3)">Option 3</button> -->
 
                         <div id="div1" class="hidden">
-                            <label for="numSamples">Enter the number of samples (n): </label>
-                            <input type="number" id="numSamples" name="numSamples" placeholder="Enter the number of samples">
+                            <input type="hidden" id="numSamples" name="numSamples" value="1">
+                            <script>
 
-                            <button id="createInput" onclick=" createSampleInputs();">Enter Sample Data</button>
-
+                                // Call the function automatically on page reload
+                                window.onload = function() {
+                                    createSampleInputs();
+                                };
+                            </script>
                             <div id="sampleInputContainer"></div>
 
                             <div id="sampleSelectionContainer"></div>
