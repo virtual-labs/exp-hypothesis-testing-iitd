@@ -2,6 +2,20 @@
   "version": 2.0,
   "questions": [
     {
+
+      "question": "Which of the following best describes the aim of the experiment mentioned?",
+      "answers": {
+        "a": "Testing the hypothesis using population data",
+        "b": "Analyzing sample data to draw conclusions about the population",
+        "c": "Drawing conclusions about sample data",
+        "d": "Assessing the sample size for statistical analysis"
+      },
+      "explanations": {
+        "a": "This statement is incorrect. The aim is to analyze sample data, not population data.",
+        "b": "The correct answer is B. The aim of the experiment is to analyze sample data and draw conclusions about the population from which the sample was taken.",
+        "c": "This statement is incorrect. The aim is to draw conclusions about the population, not just the sample data.",
+        "d": "This statement is incorrect. The aim is not specifically about assessing the sample size."
+=======
       "question": "In hypothesis testing, what is the null hypothesis?",
       "answers": {
         "a": "The hypothesis that there is no significant difference or relationship between variables.",
@@ -10,11 +24,80 @@
       "explanations": {
         "a": "The null hypothesis assumes no significant difference or relationship between variables until proven otherwise.",
         "b": "This statement is incorrect. The null hypothesis assumes no significant difference or relationship between variables until proven otherwise."
+
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "medium"
     },
     {
+
+      "question": "What does the experiment aim to assess?",
+      "answers": {
+        "a": "Causality between variables",
+        "b": "Sample representativeness",
+        "c": "Statistical significance of a hypothesis",
+        "d": "Sample variance"
+      },
+      "explanations": {
+        "a": "This statement is incorrect. The experiment aims to assess statistical significance, not causality between variables.",
+        "b": "This statement is incorrect. While sample representativeness is important, the specific aim is to assess statistical significance.",
+        "c": "The correct answer is C. The experiment aims to assess the statistical significance of a hypothesis by analyzing sample data.",
+        "d": "This statement is incorrect. The experiment's primary focus is on statistical significance, not sample variance."
+      },
+      "correctAnswer": "c",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Why is it essential to analyze sample data in this experiment?",
+      "answers": {
+        "a": "To confirm preconceived notions",
+        "b": "To draw conclusions about the population",
+        "c": "To manipulate the population",
+        "d": "To establish a new hypothesis"
+      },
+      "explanations": {
+        "a": "This statement is incorrect. The analysis of sample data aims to provide objective conclusions, not confirm preconceived notions.",
+        "b": "The correct answer is B. Analyzing sample data is essential to draw accurate conclusions about the population from which the sample was taken.",
+        "c": "This statement is incorrect. The aim is to analyze existing sample data, not manipulate the population.",
+        "d": "This statement is incorrect. The experiment analyzes existing data; it does not aim to establish a new hypothesis."
+      },
+      "correctAnswer": "b",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the primary purpose of drawing conclusions about the population from sample data?",
+      "answers": {
+        "a": "To make assumptions",
+        "b": "To increase sample size",
+        "c": "To assess statistical significance of the hypothesis",
+        "d": "To generalize findings from the sample to the entire population"
+      },
+      "explanations": {
+        "a": "This statement is incorrect. The purpose is to draw objective conclusions, not make assumptions.",
+        "b": "This statement is incorrect. Increasing sample size is a potential method but not the primary purpose.",
+        "c": "This statement is incorrect. The primary purpose is not only to assess statistical significance but to draw broader conclusions.",
+        "d": "The correct answer is D. Drawing conclusions about the population allows researchers to generalize findings from the sample to the entire population."
+      },
+      "correctAnswer": "d",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In the context of the experiment's aim, what does 'statistical significance' refer to?",
+      "answers": {
+        "a": "Confidence in the hypothesis",
+        "b": "Practical importance of the results",
+        "c": "Likelihood of the sample representing the population",
+        "d": "Unlikelihood of the observed results occurring by chance"
+      },
+      "explanations": {
+        "a": "This statement is incorrect. While confidence is related, statistical significance refers to a different concept.",
+        "b": "This statement is incorrect. Practical importance is not the primary focus when discussing statistical significance.",
+        "c": "This statement is incorrect. While sample representativeness is essential, statistical significance specifically refers to something else.",
+        "d": "The correct answer is D. 'Statistical significance' refers to the unlikelihood of the observed results occurring by chance, indicating the presence of a real effect."
+      },
+      "correctAnswer": "d",
+      "difficulty": "medium"
+=======
       "question": "What is the alternative hypothesis in hypothesis testing?",
       "answers": {
         "a": "The hypothesis that there is no significant difference or relationship between variables.",
@@ -65,6 +148,7 @@
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
+
     }
   ]
 }
