@@ -56,7 +56,8 @@
       },
       "correctAnswer": "b",
       "difficulty": "medium"
-=======
+},
+    {
       "question": "What is a Type III error in hypothesis testing?",
       "answers": {
         "a": "Rejecting the null hypothesis when it is true.",
