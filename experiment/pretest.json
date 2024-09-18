@@ -15,7 +15,11 @@
         "b": "The correct answer is B. The aim of the experiment is to analyze sample data and draw conclusions about the population from which the sample was taken.",
         "c": "This statement is incorrect. The aim is to draw conclusions about the population, not just the sample data.",
         "d": "This statement is incorrect. The aim is not specifically about assessing the sample size."
-=======
+  },
+      "correctAnswer": "b",
+      "difficulty": "medium"
+    },
+    {
       "question": "In hypothesis testing, what is the null hypothesis?",
       "answers": {
         "a": "The hypothesis that there is no significant difference or relationship between variables.",
