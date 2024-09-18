@@ -1,0 +1,1439 @@
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/Experiments/Descriptive/mean/changeFile.js
+  1:10  warning  'change' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/Experiments/Descriptive/script.js
+     5:10  warning  'createSampleInputs' is defined but never used        no-unused-vars
+    50:10  warning  'getData' is defined but never used                   no-unused-vars
+   184:1   warning  'google' is not defined                               no-undef
+   186:10  warning  'makeLineChart' is defined but never used             no-unused-vars
+   208:20  warning  'google' is not defined                               no-undef
+   233:21  warning  'google' is not defined                               no-undef
+   243:10  warning  'makeScatterChart' is defined but never used          no-unused-vars
+   265:20  warning  'google' is not defined                               no-undef
+   292:21  warning  'google' is not defined                               no-undef
+   313:10  warning  'makeAreaChart' is defined but never used             no-unused-vars
+   335:20  warning  'google' is not defined                               no-undef
+   361:21  warning  'google' is not defined                               no-undef
+   379:1   warning  'google' is not defined                               no-undef
+   381:10  warning  'makeTableChart' is defined but never used            no-unused-vars
+   400:20  warning  'google' is not defined                               no-undef
+   423:21  warning  'google' is not defined                               no-undef
+   445:10  warning  'NormSInv' is defined but never used                  no-unused-vars
+   496:20  warning  'jStat' is not defined                                no-undef
+   517:10  warning  'calculateInterval' is defined but never used         no-unused-vars
+   586:29  warning  'jStat' is not defined                                no-undef
+   587:29  warning  'jStat' is not defined                                no-undef
+   607:10  warning  'calculateInterval2' is defined but never used        no-unused-vars
+   681:20  warning  'jStat' is not defined                                no-undef
+   682:20  warning  'jStat' is not defined                                no-undef
+   691:10  warning  'calculateInterval3' is defined but never used        no-unused-vars
+   754:14  warning  'i' is already defined                                no-redeclare
+   768:10  warning  'normal' is defined but never used                    no-unused-vars
+   845:10  warning  'exp' is defined but never used                       no-unused-vars
+   901:10  warning  'poisson' is defined but never used                   no-unused-vars
+   957:10  warning  'geometric' is defined but never used                 no-unused-vars
+  1035:10  warning  'gamma' is defined but never used                     no-unused-vars
+  1124:5   warning  'Plotly' is not defined                               no-undef
+  1184:5   warning  'Plotly' is not defined                               no-undef
+  1191:10  warning  'hypothesisTestDifference' is defined but never used  no-unused-vars
+  1214:26  warning  'jStat' is not defined                                no-undef
+  1215:26  warning  'jStat' is not defined                                no-undef
+  1217:26  warning  'jStat' is not defined                                no-undef
+  1221:26  warning  'jStat' is not defined                                no-undef
+  1230:9   warning  'result' is already defined                           no-redeclare
+  1262:37  warning  'standardDeviation' is not defined                    no-undef
+  1264:37  warning  'standardDeviation' is not defined                    no-undef
+  1339:10  warning  'hypothesisTest' is defined but never used            no-unused-vars
+  1361:26  warning  'jStat' is not defined                                no-undef
+  1362:26  warning  'jStat' is not defined                                no-undef
+  1364:26  warning  'jStat' is not defined                                no-undef
+  1368:26  warning  'jStat' is not defined                                no-undef
+  1377:9   warning  'result' is already defined                           no-redeclare
+  1483:10  warning  'hypothesisTest3' is defined but never used           no-unused-vars
+  1505:26  warning  'jStat' is not defined                                no-undef
+  1506:26  warning  'jStat' is not defined                                no-undef
+  1508:26  warning  'jStat' is not defined                                no-undef
+  1512:26  warning  'jStat' is not defined                                no-undef
+  1632:10  warning  'hypothesisTest2' is defined but never used           no-unused-vars
+  1669:28  warning  'jStat' is not defined                                no-undef
+  1675:26  warning  'jStat' is not defined                                no-undef
+  1676:26  warning  'jStat' is not defined                                no-undef
+  1678:26  warning  'jStat' is not defined                                no-undef
+  1682:26  warning  'jStat' is not defined                                no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/Scripts/chart.js
+    880:9   warning  'mode' is defined but never used                                          no-unused-vars
+   1088:20  warning  'element' is defined but never used                                       no-unused-vars
+   1088:29  warning  'start' is defined but never used                                         no-unused-vars
+   1088:36  warning  'count' is defined but never used                                         no-unused-vars
+   1088:43  warning  'mode' is defined but never used                                          no-unused-vars
+   2585:5   warning  Definition for rule '@typescript-eslint/no-empty-function' was not found  @typescript-eslint/no-empty-function
+   3163:17  warning  'canvas' is defined but never used                                        no-unused-vars
+   3163:25  warning  'aspectRatio' is defined but never used                                   no-unused-vars
+   3164:17  warning  'context' is defined but never used                                       no-unused-vars
+   3167:19  warning  'chart' is defined but never used                                         no-unused-vars
+   3167:26  warning  'type' is defined but never used                                          no-unused-vars
+   3167:32  warning  'listener' is defined but never used                                      no-unused-vars
+   3168:22  warning  'chart' is defined but never used                                         no-unused-vars
+   3168:29  warning  'type' is defined but never used                                          no-unused-vars
+   3168:35  warning  'listener' is defined but never used                                      no-unused-vars
+   3180:13  warning  'canvas' is defined but never used                                        no-unused-vars
+   3183:15  warning  'config' is defined but never used                                        no-unused-vars
+   3407:24  warning  'canvas.width' is assigned to itself                                      no-self-assign
+   3779:13  warning  'index' is defined but never used                                         no-unused-vars
+   4213:19  warning  'value' is defined but never used                                         no-unused-vars
+   4213:26  warning  'index' is defined but never used                                         no-unused-vars
+   4216:19  warning  'pixel' is defined but never used                                         no-unused-vars
+  10091:16  warning  'index' is defined but never used                                         no-unused-vars
+  11068:13  warning  'index' is defined but never used                                         no-unused-vars
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/Scripts/recovery.js
+   178:25  warning  Unexpected negating the left operand of 'in' operator  no-unsafe-negation
+   499:26  warning  'D' is already defined                                 no-redeclare
+   700:30  warning  'X' is already defined                                 no-redeclare
+   712:30  warning  'X' is already defined                                 no-redeclare
+   735:9   warning  'module' is not defined                                no-undef
+   736:10  warning  'exports' is not defined                               no-undef
+   736:20  warning  'module' is not defined                                no-undef
+   737:10  warning  'exports' is not defined                               no-undef
+   978:22  warning  'h' is already defined                                 no-redeclare
+  1490:18  warning  'I' is already defined                                 no-redeclare
+  1614:22  warning  'W' is already defined                                 no-redeclare
+  1689:13  warning  'T' is assigned a value but never used                 no-unused-vars
+  1812:14  warning  'h' is assigned a value but never used                 no-unused-vars
+  2140:13  warning  'M' is assigned a value but never used                 no-unused-vars
+  2182:13  warning  'h' is assigned a value but never used                 no-unused-vars
+  2187:17  warning  'independentValue' is not defined                      no-undef
+  2291:22  warning  'V' is already defined                                 no-redeclare
+  2406:13  warning  'h' is assigned a value but never used                 no-unused-vars
+  2511:10  warning  'clearData' is defined but never used                  no-unused-vars
+  2585:81  warning  Unnecessary semicolon                                  no-extra-semi
+  2589:81  warning  Unnecessary semicolon                                  no-extra-semi
+  2701:10  warning  'pearson' is defined but never used                    no-unused-vars
+  2711:10  warning  'spearman' is defined but never used                   no-unused-vars
+  2732:10  warning  'calculateMean' is defined but never used              no-unused-vars
+  2763:10  warning  'calculateMedian' is defined but never used            no-unused-vars
+  2794:10  warning  'calculateMode' is defined but never used              no-unused-vars
+  2826:10  warning  'calculateRange' is defined but never used             no-unused-vars
+  2858:10  warning  'calculateKurtosis' is defined but never used          no-unused-vars
+  2890:10  warning  'calculateSkewness' is defined but never used          no-unused-vars
+  2922:10  warning  'calculateQuantiles' is defined but never used         no-unused-vars
+  2945:9   warning  'quantile4' is assigned a value but never used         no-unused-vars
+  2956:10  warning  'generateTableRows' is defined but never used          no-unused-vars
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/Scripts/stats.js
+  1094:8  error  Parsing error: Unexpected token _
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/build/doctool.js
+    9:10  warning  'require' is not defined          no-undef
+   10:12  warning  'require' is not defined          no-undef
+   11:16  warning  'require' is not defined          no-undef
+   12:12  warning  'process' is not defined          no-undef
+   84:18  warning  Unnecessary escape character: \<  no-useless-escape
+   84:27  warning  Unnecessary escape character: \>  no-useless-escape
+   84:37  warning  Unnecessary escape character: \<  no-useless-escape
+   84:47  warning  Unnecessary escape character: \>  no-useless-escape
+   95:17  warning  'require' is not defined          no-undef
+   95:25  warning  '__dirname' is not defined        no-undef
+  134:7   warning  'process' is not defined          no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/build/lib/markdown.js
+   124:13  warning  'uneval' is not defined                           no-undef
+   126:13  warning  'uneval' is not defined                           no-undef
+   128:13  warning  'uneval' is not defined                           no-undef
+   139:21  warning  Unnecessary semicolon                             no-extra-semi
+   145:64  warning  'startLine' is defined but never used             no-unused-vars
+   327:11  warning  'lines' is defined but never used                 no-unused-vars
+   347:15  warning  'm' is already defined                            no-redeclare
+   358:16  warning  Unexpected constant condition                     no-constant-condition
+   407:11  warning  'number_list' is assigned a value but never used  no-unused-vars
+   518:16  warning  Unexpected constant condition                     no-constant-condition
+   527:11  warning  'tight_search:' is defined but never used         no-unused-labels
+   675:11  warning  'old_tree' is assigned a value but never used     no-unused-vars
+   722:33  warning  'next' is defined but never used                  no-unused-vars
+   782:32  warning  Unnecessary escape character: \*                  no-useless-escape
+   782:37  warning  Unnecessary escape character: \[                  no-useless-escape
+   782:44  warning  Unnecessary escape character: \+                  no-useless-escape
+   782:48  warning  Unnecessary escape character: \-                  no-useless-escape
+   899:33  warning  'text' is defined but never used                  no-unused-vars
+   916:27  warning  'orig_match' is defined but never used            no-unused-vars
+   943:11  warning  'check' is assigned a value but never used        no-unused-vars
+   984:36  warning  Unnecessary escape character: \[                  no-useless-escape
+  1003:22  warning  Unnecessary semicolon                             no-extra-semi
+  1005:23  warning  Unnecessary semicolon                             no-extra-semi
+  1016:79  warning  'next' is defined but never used                  no-unused-vars
+  1029:9   warning  'p' is not defined                                no-undef
+  1030:20  warning  'p' is not defined                                no-undef
+  1041:73  warning  'next' is defined but never used                  no-unused-vars
+  1043:54  warning  Unnecessary escape character: \}                  no-useless-escape
+  1064:11  warning  'a' is not defined                                no-undef
+  1065:13  warning  'a' is not defined                                no-undef
+  1065:25  warning  'a' is not defined                                no-undef
+  1077:7   warning  'hash' is already defined                         no-redeclare
+  1084:9   warning  'a' is not defined                                no-undef
+  1085:11  warning  'a' is not defined                                no-undef
+  1085:23  warning  'a' is not defined                                no-undef
+  1115:17  warning  'i' is already defined                            no-redeclare
+  1141:42  warning  Unnecessary escape character: \}                  no-useless-escape
+  1169:52  warning  Invalid typeof comparison value                   valid-typeof
+  1237:7   warning  Expected a 'break' statement before 'default'     no-fallthrough
+  1367:11  warning  'i' is already defined                            no-redeclare
+  1412:7   warning  'i' is already defined                            no-redeclare
+  1417:15  warning  'key' is assigned a value but never used          no-unused-vars
+  1464:12  warning  'exports' is not defined                          no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/dist/jstat.js
+     3:9   warning  'module' is not defined                             no-undef
+     4:48  warning  'define' is not defined                             no-undef
+     5:9   warning  'define' is not defined                             no-undef
+    10:29  warning  Shadowing of global property 'undefined'            no-shadow-restricted-names
+   867:9   warning  'number' is already defined                         no-redeclare
+  1268:25  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1277:19  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1327:32  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1327:52  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1565:35  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1620:17  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  2208:22  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  2304:13  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  2821:12  warning  Unexpected constant condition                       no-constant-condition
+  3021:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3022:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3023:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3024:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3025:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3026:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3029:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3030:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3031:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3032:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3033:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3034:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3184:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3185:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3186:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3187:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3188:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3189:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3190:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3191:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3194:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3195:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3196:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3197:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3198:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3199:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3200:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  3201:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/dist/jstat.min.js
+  1:57     warning  'module' is not defined                   no-undef
+  1:118    warning  'define' is not defined                   no-undef
+  1:130    warning  'define' is not defined                   no-undef
+  1:217    warning  Shadowing of global property 'undefined'  no-shadow-restricted-names
+  1:12037  warning  'number' is already defined               no-redeclare
+  1:40454  warning  Unexpected constant condition             no-constant-condition
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/doc/assets/sh_javascript.min.js
+  1:45    warning  'sh_languages' is not defined     no-undef
+  1:570   warning  Unnecessary escape character: \/  no-useless-escape
+  1:688   warning  Unnecessary escape character: \/  no-useless-escape
+  1:779   warning  Unnecessary escape character: \/  no-useless-escape
+  1:833   warning  Unnecessary escape character: \/  no-useless-escape
+  1:848   warning  Unnecessary escape character: \/  no-useless-escape
+  1:1581  warning  Unnecessary escape character: \.  no-useless-escape
+  1:1583  warning  Unnecessary escape character: \/  no-useless-escape
+  1:1603  warning  Unnecessary escape character: \.  no-useless-escape
+  1:1605  warning  Unnecessary escape character: \/  no-useless-escape
+  1:1655  warning  Unnecessary escape character: \.  no-useless-escape
+  1:1657  warning  Unnecessary escape character: \/  no-useless-escape
+  1:2639  warning  Unnecessary escape character: \.  no-useless-escape
+  1:2641  warning  Unnecessary escape character: \/  no-useless-escape
+  1:2661  warning  Unnecessary escape character: \.  no-useless-escape
+  1:2663  warning  Unnecessary escape character: \/  no-useless-escape
+  1:2713  warning  Unnecessary escape character: \.  no-useless-escape
+  1:2715  warning  Unnecessary escape character: \/  no-useless-escape
+  1:3226  warning  Unnecessary escape character: \.  no-useless-escape
+  1:3228  warning  Unnecessary escape character: \/  no-useless-escape
+  1:3248  warning  Unnecessary escape character: \.  no-useless-escape
+  1:3250  warning  Unnecessary escape character: \/  no-useless-escape
+  1:3300  warning  Unnecessary escape character: \.  no-useless-escape
+  1:3302  warning  Unnecessary escape character: \/  no-useless-escape
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/doc/assets/sh_main.js
+  468:16  warning  'ActiveXObject' is not defined                    no-undef
+  492:46  warning  'sh_languages' is not defined                     no-undef
+  528:25  warning  'sh_languages' is not defined                     no-undef
+  529:40  warning  'sh_languages' is not defined                     no-undef
+  542:36  warning  'sh_languages' is not defined                     no-undef
+  549:10  warning  'sh_highlightDocument' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/src/_footer.js
+  4:3  error  Parsing error: 'return' outside of function
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/src/_header.js
+  10:1  error  Parsing error: Unexpected token
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/src/core.js
+  1:5   warning  'jStat' is assigned a value but never used  no-unused-vars
+  1:29  warning  Shadowing of global property 'undefined'    no-shadow-restricted-names
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/src/distribution.js
+   438:22  warning  This number literal will lose precision at runtime  no-loss-of-precision
+   534:13  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1051:12  warning  Unexpected constant condition                       no-constant-condition
+  1251:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1252:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1253:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1254:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1255:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1256:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1259:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1260:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1261:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1262:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1263:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1264:5   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1414:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1415:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1416:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1417:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1418:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1419:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1420:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1421:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1424:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1425:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1426:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1427:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1428:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1429:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1430:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1431:7   warning  This number literal will lose precision at runtime  no-loss-of-precision
+  1596:3   warning  'jStat' is not defined                              no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/src/linearalgebra.js
+  970:3  warning  'jStat' is not defined  no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/src/models.js
+   1:1   warning  'jStat' is not defined  no-undef
+   4:21  warning  'jStat' is not defined  no-undef
+   6:11  warning  'jStat' is not defined  no-undef
+   7:18  warning  'jStat' is not defined  no-undef
+   8:18  warning  'jStat' is not defined  no-undef
+  21:16  warning  'jStat' is not defined  no-undef
+  23:9   warning  'jStat' is not defined  no-undef
+  25:17  warning  'jStat' is not defined  no-undef
+  26:16  warning  'jStat' is not defined  no-undef
+  31:15  warning  'jStat' is not defined  no-undef
+  34:15  warning  'jStat' is not defined  no-undef
+  71:21  warning  'jStat' is not defined  no-undef
+  74:13  warning  'jStat' is not defined  no-undef
+  92:14  warning  'jStat' is not defined  no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/src/regression.js
+   12:1   warning  'jStat' is not defined  no-undef
+   23:12  warning  'jStat' is not defined  no-undef
+   35:12  warning  'jStat' is not defined  no-undef
+   45:12  warning  'jStat' is not defined  no-undef
+   50:12  warning  'jStat' is not defined  no-undef
+   72:16  warning  'jStat' is not defined  no-undef
+   85:14  warning  'jStat' is not defined  no-undef
+   94:20  warning  'jStat' is not defined  no-undef
+   97:16  warning  'jStat' is not defined  no-undef
+   97:33  warning  'jStat' is not defined  no-undef
+   98:12  warning  'jStat' is not defined  no-undef
+  103:16  warning  'jStat' is not defined  no-undef
+  107:20  warning  'jStat' is not defined  no-undef
+  110:31  warning  'jStat' is not defined  no-undef
+  112:25  warning  'jStat' is not defined  no-undef
+  115:25  warning  'jStat' is not defined  no-undef
+  119:25  warning  'jStat' is not defined  no-undef
+  127:9   warning  'jStat' is not defined  no-undef
+  137:17  warning  'jStat' is not defined  no-undef
+  143:11  warning  'jStat' is not defined  no-undef
+  153:12  warning  'jStat' is not defined  no-undef
+  158:17  warning  'jStat' is not defined  no-undef
+  159:20  warning  'jStat' is not defined  no-undef
+  164:16  warning  'jStat' is not defined  no-undef
+  165:16  warning  'jStat' is not defined  no-undef
+  169:12  warning  'jStat' is not defined  no-undef
+  204:12  warning  'jStat' is not defined  no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/src/special.js
+    8:25  warning  This number literal will lose precision at runtime  no-loss-of-precision
+   17:19  warning  This number literal will lose precision at runtime  no-loss-of-precision
+   67:32  warning  This number literal will lose precision at runtime  no-loss-of-precision
+   67:52  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  305:35  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  360:17  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  510:3   warning  'jStat' is not defined                              no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/src/test.js
+  339:3  warning  'jStat' is not defined  no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/src/vector.js
+  173:9  warning  'number' is already defined  no-redeclare
+  566:3  warning  'jStat' is not defined       no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/alter-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  23:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/antidiag-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  20:7   warning  'jStat' is not defined            no-undef
+  22:40  warning  'stat' is defined but never used  no-unused-vars
+  28:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/arange-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  23:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/clear-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  26:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/col-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  17:1   warning  Mixed spaces and tabs             no-mixed-spaces-and-tabs
+  18:1   warning  Mixed spaces and tabs             no-mixed-spaces-and-tabs
+  19:1   warning  Mixed spaces and tabs             no-mixed-spaces-and-tabs
+  24:7   warning  'jStat' is not defined            no-undef
+  26:35  warning  'stat' is defined but never used  no-unused-vars
+  28:37  warning  'jStat' is not defined            no-undef
+  33:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/cols-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  20:7   warning  'jStat' is not defined            no-undef
+  22:39  warning  'stat' is defined but never used  no-unused-vars
+  28:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/copy-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  24:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/create-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  30:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/diag-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  19:7   warning  'jStat' is not defined            no-undef
+  21:36  warning  'stat' is defined but never used  no-unused-vars
+  27:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/diagonal-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  28:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/dimensions-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  12:14  warning  'jStat' is not defined            no-undef
+  23:7   warning  'jStat' is not defined            no-undef
+  25:45  warning  'stat' is defined but never used  no-unused-vars
+  31:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/extend-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  21:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/identity-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  22:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/jstat-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  56:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/map-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  23:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/ones-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  23:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/rand-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  21:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/row-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  17:1   warning  Mixed spaces and tabs             no-mixed-spaces-and-tabs
+  18:1   warning  Mixed spaces and tabs             no-mixed-spaces-and-tabs
+  19:1   warning  Mixed spaces and tabs             no-mixed-spaces-and-tabs
+  24:7   warning  'jStat' is not defined            no-undef
+  26:35  warning  'stat' is defined but never used  no-unused-vars
+  28:37  warning  'jStat' is not defined            no-undef
+  33:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/rows-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  20:7   warning  'jStat' is not defined            no-undef
+  22:39  warning  'stat' is defined but never used  no-unused-vars
+  28:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/seq-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  29:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/slice-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  33:5   warning  Duplicate key 'example3'  no-dupe-keys
+  41:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/sliceAssign-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  31:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/symmetric-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  23:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/transpose-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  20:7   warning  'jStat' is not defined            no-undef
+  22:41  warning  'stat' is defined but never used  no-unused-vars
+  28:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/utils-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  71:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/core/zeros-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  23:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/arcsine-test.js
+    1:12  warning  'require' is not defined  no-undef
+    2:14  warning  'require' is not defined  no-undef
+    5:1   warning  'require' is not defined  no-undef
+   10:14  warning  'jStat' is not defined    no-undef
+  127:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/beta-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  70:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/binomial-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  35:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/cauchy-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  12:20  warning  'jStat' is not defined    no-undef
+  61:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/central-f-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  87:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/chisquare-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  55:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/gamma-test.js
+   1:12  warning  'require' is not defined    no-undef
+   2:14  warning  'require' is not defined    no-undef
+   5:1   warning  'require' is not defined    no-undef
+  10:14  warning  'jStat' is not defined      no-undef
+  20:9   warning  'pStatic' is not defined    no-undef
+  21:9   warning  'pInstance' is not defined  no-undef
+  22:19  warning  'pStatic' is not defined    no-undef
+  23:24  warning  'pInstance' is not defined  no-undef
+  25:18  warning  'pStatic' is not defined    no-undef
+  25:30  warning  'pInstance' is not defined  no-undef
+  39:7   warning  'tol' is not defined        no-undef
+  40:22  warning  'tol' is not defined        no-undef
+  41:22  warning  'tol' is not defined        no-undef
+  42:22  warning  'tol' is not defined        no-undef
+  43:22  warning  'tol' is not defined        no-undef
+  49:7   warning  'tol' is not defined        no-undef
+  50:22  warning  'tol' is not defined        no-undef
+  51:22  warning  'tol' is not defined        no-undef
+  52:22  warning  'tol' is not defined        no-undef
+  53:22  warning  'tol' is not defined        no-undef
+  59:7   warning  'tol' is not defined        no-undef
+  60:22  warning  'tol' is not defined        no-undef
+  61:22  warning  'tol' is not defined        no-undef
+  66:14  warning  'module' is not defined     no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/hypergeometric-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  33:11  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  42:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/inverse-gamma-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  21:7   warning  'tol' is not defined      no-undef
+  22:22  warning  'tol' is not defined      no-undef
+  23:22  warning  'tol' is not defined      no-undef
+  24:22  warning  'tol' is not defined      no-undef
+  25:22  warning  'tol' is not defined      no-undef
+  31:7   warning  'tol' is not defined      no-undef
+  32:22  warning  'tol' is not defined      no-undef
+  33:22  warning  'tol' is not defined      no-undef
+  34:22  warning  'tol' is not defined      no-undef
+  35:22  warning  'tol' is not defined      no-undef
+  41:7   warning  'tol' is not defined      no-undef
+  42:22  warning  'tol' is not defined      no-undef
+  43:22  warning  'tol' is not defined      no-undef
+  48:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/kumaraswamy-test.js
+    1:12  warning  'require' is not defined         no-undef
+    2:14  warning  'require' is not defined         no-undef
+    5:1   warning  'require' is not defined         no-undef
+   10:14  warning  'jStat' is not defined           no-undef
+   26:14  warning  'jStat' is not defined           no-undef
+   85:3   warning  Duplicate key 'kumaraswamy pdf'  no-dupe-keys
+   87:14  warning  'jStat' is not defined           no-undef
+  158:14  warning  'jStat' is not defined           no-undef
+  234:14  warning  'module' is not defined          no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/laplace-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  12:20  warning  'jStat' is not defined    no-undef
+  84:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/lognormal-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  24:14  warning  'jStat' is not defined    no-undef
+  39:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/neg-bin-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  22:14  warning  'jStat' is not defined    no-undef
+  33:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/noncentralt-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  42:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/normal-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  31:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/pareto-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  36:14  warning  'jStat' is not defined    no-undef
+  62:14  warning  'jStat' is not defined    no-undef
+  88:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/poisson-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  12:20  warning  'jStat' is not defined    no-undef
+  61:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/student-t-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  40:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/triangular-test.js
+    1:12  warning  'require' is not defined                  no-undef
+    2:14  warning  'require' is not defined                  no-undef
+    5:1   warning  'require' is not defined                  no-undef
+   10:14  warning  'jStat' is not defined                    no-undef
+   49:11  warning  'tol' is assigned a value but never used  no-unused-vars
+   55:11  warning  'tol' is assigned a value but never used  no-unused-vars
+   61:11  warning  'tol' is assigned a value but never used  no-unused-vars
+   69:14  warning  'jStat' is not defined                    no-undef
+  108:11  warning  'tol' is assigned a value but never used  no-unused-vars
+  112:11  warning  'tol' is assigned a value but never used  no-unused-vars
+  116:11  warning  'tol' is assigned a value but never used  no-unused-vars
+  122:14  warning  'jStat' is not defined                    no-undef
+  155:11  warning  'tol' is assigned a value but never used  no-unused-vars
+  161:11  warning  'tol' is assigned a value but never used  no-unused-vars
+  167:11  warning  'tol' is assigned a value but never used  no-unused-vars
+  175:14  warning  'module' is not defined                   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/tukey-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  30:14  warning  'jStat' is not defined    no-undef
+  50:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/uniform-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  30:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/distribution/weibull-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+   8:13  warning  'jStat' is not defined    no-undef
+  14:20  warning  'jStat' is not defined    no-undef
+  78:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/env.js
+  2:1  warning  'jStat' is not defined    no-undef
+  2:9  warning  'require' is not defined  no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/abs-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  19:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/add-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  24:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/angle-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  22:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/aug-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  37:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/cholesky-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  29:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/det-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  35:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/divide-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  19:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/dot-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  21:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/exp-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  19:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/gauss-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  59:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/inv-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  20:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/log-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  19:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/lstsq-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  50:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/lu-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  40:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/multiply-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  29:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/norm-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  29:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/outer-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  30:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/pow-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  19:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/qr-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  40:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/subtract-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  24:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/triaLowSolve-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  33:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/linearalgebra/triaUpSolve-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  33:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/models/R2-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  49:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/models/simple-regression-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  13:1   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  14:1   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  15:4   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  16:4   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  17:4   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  18:4   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  19:4   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  20:4   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  21:4   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  22:4   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  23:4   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  26:1   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  33:1   warning  Mixed spaces and tabs     no-mixed-spaces-and-tabs
+  47:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/models/thousand-size-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  33:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/special/gammafn-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  24:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/special/gammap-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  25:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/special/lowRegGamma-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  27:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/template.js
+   1:12  warning  'require' is not defined                     no-undef
+   2:5   warning  'assert' is assigned a value but never used  no-unused-vars
+   2:14  warning  'require' is not defined                     no-undef
+   5:1   warning  'require' is not defined                     no-undef
+  10:14  warning  'jStat' is not defined                       no-undef
+  12:18  warning  'jStat' is defined but never used            no-unused-vars
+  17:14  warning  'module' is not defined                      no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/test/anovafscore.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  23:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/test/differenceOfProportions-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  33:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/test/qtest-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  13:10  warning  'jStat' is not defined    no-undef
+  28:14  warning  'jStat' is not defined    no-undef
+  56:14  warning  'jStat' is not defined    no-undef
+  68:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/test/ztest-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  27:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/umd/commonjs-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   8:14  warning  'require' is not defined  no-undef
+  27:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/coeffvar-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  24:7   warning  'jStat' is not defined            no-undef
+  26:40  warning  'stat' is defined but never used  no-unused-vars
+  32:7   warning  'jStat' is not defined            no-undef
+  34:52  warning  'stat' is defined but never used  no-unused-vars
+  40:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/corrcoeff-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  19:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/covariance-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  19:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/cumprod-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:39  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:51  warning  'stat' is defined but never used  no-unused-vars
+  43:7   warning  'jStat' is not defined            no-undef
+  45:51  warning  'stat' is defined but never used  no-unused-vars
+  51:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/cumsum-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:38  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:50  warning  'stat' is defined but never used  no-unused-vars
+  43:7   warning  'jStat' is not defined            no-undef
+  45:50  warning  'stat' is defined but never used  no-unused-vars
+  51:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/deviation-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  31:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/diff-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  24:7   warning  'jStat' is not defined            no-undef
+  26:36  warning  'stat' is defined but never used  no-unused-vars
+  32:7   warning  'jStat' is not defined            no-undef
+  34:48  warning  'stat' is defined but never used  no-unused-vars
+  40:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/geomean-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  28:7   warning  'jStat' is not defined            no-undef
+  30:39  warning  'stat' is defined but never used  no-unused-vars
+  36:7   warning  'jStat' is not defined            no-undef
+  38:51  warning  'stat' is defined but never used  no-unused-vars
+  44:7   warning  'jStat' is not defined            no-undef
+  46:51  warning  'stat' is defined but never used  no-unused-vars
+  52:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/histogram-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  36:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/kurtosis-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  33:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/max-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:35  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:47  warning  'stat' is defined but never used  no-unused-vars
+  43:7   warning  'jStat' is not defined            no-undef
+  45:47  warning  'stat' is defined but never used  no-unused-vars
+  51:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/mean-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:36  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:48  warning  'stat' is defined but never used  no-unused-vars
+  43:7   warning  'jStat' is not defined            no-undef
+  45:48  warning  'stat' is defined but never used  no-unused-vars
+  51:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/meandev-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  24:7   warning  'jStat' is not defined            no-undef
+  26:39  warning  'stat' is defined but never used  no-unused-vars
+  32:7   warning  'jStat' is not defined            no-undef
+  34:51  warning  'stat' is defined but never used  no-unused-vars
+  40:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/meansqerr-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  24:7   warning  'jStat' is not defined            no-undef
+  26:41  warning  'stat' is defined but never used  no-unused-vars
+  32:7   warning  'jStat' is not defined            no-undef
+  34:53  warning  'stat' is defined but never used  no-unused-vars
+  40:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/meddev-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  24:7   warning  'jStat' is not defined            no-undef
+  26:38  warning  'stat' is defined but never used  no-unused-vars
+  32:7   warning  'jStat' is not defined            no-undef
+  34:50  warning  'stat' is defined but never used  no-unused-vars
+  40:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/median-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:38  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:50  warning  'stat' is defined but never used  no-unused-vars
+  43:7   warning  'jStat' is not defined            no-undef
+  45:50  warning  'stat' is defined but never used  no-unused-vars
+  51:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/min-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:35  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:47  warning  'stat' is defined but never used  no-unused-vars
+  43:7   warning  'jStat' is not defined            no-undef
+  45:47  warning  'stat' is defined but never used  no-unused-vars
+  51:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/mode-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  24:7   warning  'jStat' is not defined            no-undef
+  26:36  warning  'stat' is defined but never used  no-unused-vars
+  32:7   warning  'jStat' is not defined            no-undef
+  34:48  warning  'stat' is defined but never used  no-unused-vars
+  40:14  warning  'jStat' is not defined            no-undef
+  43:20  warning  'jStat' is not defined            no-undef
+  44:20  warning  'jStat' is not defined            no-undef
+  49:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/percentile-of-score-test.js
+   1:12  warning  'require' is not defined                            no-undef
+   2:14  warning  'require' is not defined                            no-undef
+   5:1   warning  'require' is not defined                            no-undef
+  12:14  warning  'jStat' is not defined                              no-undef
+  18:22  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  30:11  warning  This number literal will lose precision at runtime  no-loss-of-precision
+  42:14  warning  'module' is not defined                             no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/percentile-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  11:14  warning  'jStat' is not defined    no-undef
+  43:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/product-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:39  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:51  warning  'stat' is defined but never used  no-unused-vars
+  43:7   warning  'jStat' is not defined            no-undef
+  45:51  warning  'stat' is defined but never used  no-unused-vars
+  51:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/quantiles-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  12:14  warning  'jStat' is not defined            no-undef
+  60:7   warning  'jStat' is not defined            no-undef
+  62:41  warning  'stat' is defined but never used  no-unused-vars
+  68:7   warning  'jStat' is not defined            no-undef
+  71:53  warning  'stat' is defined but never used  no-unused-vars
+  77:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/quartiles-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  25:7   warning  'jStat' is not defined            no-undef
+  27:41  warning  'stat' is defined but never used  no-unused-vars
+  33:7   warning  'jStat' is not defined            no-undef
+  35:53  warning  'stat' is defined but never used  no-unused-vars
+  41:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/range-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  24:7   warning  'jStat' is not defined            no-undef
+  26:37  warning  'stat' is defined but never used  no-unused-vars
+  32:7   warning  'jStat' is not defined            no-undef
+  34:49  warning  'stat' is defined but never used  no-unused-vars
+  40:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/rank-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  27:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/skewness-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  36:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/spearman-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  12:14  warning  'jStat' is not defined    no-undef
+  33:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/stdev-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:37  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:49  warning  'stat' is defined but never used  no-unused-vars
+  43:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/sum-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:35  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:47  warning  'stat' is defined but never used  no-unused-vars
+  43:7   warning  'jStat' is not defined            no-undef
+  45:47  warning  'stat' is defined but never used  no-unused-vars
+  51:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/sumrow-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:38  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:50  warning  'stat' is defined but never used  no-unused-vars
+  43:7   warning  'jStat' is not defined            no-undef
+  45:50  warning  'stat' is defined but never used  no-unused-vars
+  51:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/sumsqerr-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  24:7   warning  'jStat' is not defined            no-undef
+  26:40  warning  'stat' is defined but never used  no-unused-vars
+  32:7   warning  'jStat' is not defined            no-undef
+  34:52  warning  'stat' is defined but never used  no-unused-vars
+  40:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/sumsqrd-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:39  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:51  warning  'stat' is defined but never used  no-unused-vars
+  43:7   warning  'jStat' is not defined            no-undef
+  45:51  warning  'stat' is defined but never used  no-unused-vars
+  51:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/unique-test.js
+   1:12  warning  'require' is not defined  no-undef
+   2:14  warning  'require' is not defined  no-undef
+   5:1   warning  'require' is not defined  no-undef
+  10:14  warning  'jStat' is not defined    no-undef
+  24:14  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/jstat-1.x/jstat-1.x/test/vector/variance-test.js
+   1:12  warning  'require' is not defined          no-undef
+   2:14  warning  'require' is not defined          no-undef
+   5:1   warning  'require' is not defined          no-undef
+  10:14  warning  'jStat' is not defined            no-undef
+  27:7   warning  'jStat' is not defined            no-undef
+  29:40  warning  'stat' is defined but never used  no-unused-vars
+  35:7   warning  'jStat' is not defined            no-undef
+  37:52  warning  'stat' is defined but never used  no-unused-vars
+  43:14  warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-hypothesis-testing-iitd/exp-hypothesis-testing-iitd/experiment/simulation/script.js
+   54:10  warning  'getFlatData' is defined but never used          no-unused-vars
+  118:1   warning  'google' is not defined                          no-undef
+  120:10  warning  'makeLineChart' is defined but never used        no-unused-vars
+  133:20  warning  'google' is not defined                          no-undef
+  157:21  warning  'google' is not defined                          no-undef
+  170:10  warning  'makePieChart' is defined but never used         no-unused-vars
+  182:20  warning  'google' is not defined                          no-undef
+  204:21  warning  'google' is not defined                          no-undef
+  216:10  warning  'makeBarChart' is defined but never used         no-unused-vars
+  228:20  warning  'google' is not defined                          no-undef
+  249:21  warning  'google' is not defined                          no-undef
+  261:10  warning  'makeScatterChart' is defined but never used     no-unused-vars
+  273:20  warning  'google' is not defined                          no-undef
+  295:21  warning  'google' is not defined                          no-undef
+  313:10  warning  'makeAreaChart' is defined but never used        no-unused-vars
+  325:20  warning  'google' is not defined                          no-undef
+  346:21  warning  'google' is not defined                          no-undef
+  354:1   warning  'google' is not defined                          no-undef
+  356:10  warning  'makeBoxWhiskerChart' is defined but never used  no-unused-vars
+  371:16  warning  'google' is not defined                          no-undef
+  382:21  warning  'google' is not defined                          no-undef
+  399:1   warning  'google' is not defined                          no-undef
+  401:10  warning  'makeTableChart' is defined but never used       no-unused-vars
+  405:20  warning  'google' is not defined                          no-undef
+  429:21  warning  'google' is not defined                          no-undef
+
+✖ 1157 problems (3 errors, 1154 warnings)
+  0 errors and 6 warnings potentially fixable with the `--fix` option.
+
