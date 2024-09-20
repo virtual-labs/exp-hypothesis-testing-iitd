@@ -2,7 +2,6 @@
   "version": 2.0,
   "questions": [
     {
-
       "question": "What is the p-value in a hypothesis test?",
       "answers": {
         "a": "The probability of rejecting the null hypothesis when it is true",
@@ -56,83 +55,6 @@
       },
       "correctAnswer": "b",
       "difficulty": "medium"
-=======
-      "question": "What is a Type III error in hypothesis testing?",
-      "answers": {
-        "a": "Rejecting the null hypothesis when it is true.",
-        "b": "Failing to reject the null hypothesis when it is false.",
-        "c": "Accepting the alternative hypothesis when it is false.",
-        "d": "Failing to accept the alternative hypothesis when it is true."
-      },
-      "explanations": {
-        "a": "This statement is incorrect. Type I error occurs when the researcher rejects the null hypothesis when it is actually true.",
-        "b": "Type II error occurs when the researcher fails to reject the null hypothesis when it is actually false.",
-        "c": "Type III error occurs when the researcher accepts the alternative hypothesis when it is actually false.",
-        "d": "This statement is incorrect. There is no specific term for failing to accept the alternative hypothesis when it is actually true."
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is the significance level in hypothesis testing?",
-      "answers": {
-        "a": "The probability of observing the data given that the null hypothesis is true.",
-        "b": "The probability of rejecting the null hypothesis when it is true.",
-        "c": "The threshold below which the p-value is considered statistically significant.",
-        "d": "The maximum number of Type I errors allowed."
-      },
-      "explanations": {
-        "a": "The p-value represents the probability of observing the data given that the null hypothesis is true. It is not the significance level.",
-        "b": "This statement is incorrect. The p-value is not the probability of rejecting the null hypothesis when it is true.",
-        "c": "The significance level is the threshold below which the p-value is considered statistically significant. It determines the level of evidence required to reject the null hypothesis.",
-        "d": "This statement is incorrect. The significance level does not refer to the maximum number of Type I errors allowed."
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is a two-tailed test in hypothesis testing?",
-      "answers": {
-        "a": "A test that only considers one direction of the alternative hypothesis.",
-        "b": "A test that considers both directions of the alternative hypothesis."
-      },
-      "explanations": {
-        "a": "This statement is incorrect. A two-tailed test considers both directions of the alternative hypothesis, allowing for the possibility of a significant difference in either direction.",
-        "b": "A two-tailed test considers both directions of the alternative hypothesis, allowing for the possibility of a significant difference in either direction."
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is a one-tailed test in hypothesis testing?",
-      "answers": {
-        "a": "A test that only considers one direction of the alternative hypothesis.",
-        "b": "A test that considers both directions of the alternative hypothesis."
-      },
-      "explanations": {
-        "a": "A one-tailed test only considers one direction of the alternative hypothesis, looking for a significant difference in that specific direction.",
-        "b": "This statement is incorrect. A one-tailed test only considers one direction of the alternative hypothesis, looking for a significant difference in that specific direction."
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is the critical region in hypothesis testing?",
-      "answers": {
-        "a": "The region where the test statistic falls, leading to the rejection of the null hypothesis.",
-        "b": "The region where the test statistic falls, leading to the acceptance of the alternative hypothesis.",
-        "c": "The region where the test statistic falls, leading to Type II error.",
-        "d": "The region where the test statistic falls, leading to Type I error."
-      },
-      "explanations": {
-        "a": "The critical region is the region where the test statistic falls, leading to the rejection of the null hypothesis.",
-        "b": "This statement is incorrect. The critical region is not related to the acceptance of the alternative hypothesis.",
-        "c": "This statement is incorrect. Type II error occurs when the researcher fails to reject the null hypothesis when it is actually false, not in the critical region.",
-        "d": "This statement is incorrect. Type I error occurs when the researcher rejects the null hypothesis when it is actually true, not in the critical region."
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-
     }
   ]
 }
